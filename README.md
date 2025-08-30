@@ -13,7 +13,7 @@ A production-ready service that ingests PDF files, stores them in Azure Blob Sto
 
 ---
 
-## Architecture Overview
+## Architectureee Overview
 
 ```
 Client → POST /api/upload → Azure Blob (file) → PDF Processor
