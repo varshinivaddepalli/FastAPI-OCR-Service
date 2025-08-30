@@ -1,6 +1,6 @@
 ## FastAPI OCR Service
 
-A production-ready service that ingests PDF files, stores them in Azure Blob Storage, extracts content (digital and scanned/handwritten), summarizes it into a strict JSON using an LLM (Groq), and persists the result in a relational database (MySQL). It exposes a clean REST API for uploading and retrieving processed documents.
+A production-ready service that ingests PDF files, stores them in Azure Blob Storage, extracts content (digital and scanned/handwritten), summarizes it into a strict JSON using an LLM (Groq), and persists the result in a relational database (MySQL). It exposes a clean FAST API for uploading and retrieving processed documents.
 
 ### Key Capabilities
 - Upload PDFs via REST; files stored in Azure Blob.
